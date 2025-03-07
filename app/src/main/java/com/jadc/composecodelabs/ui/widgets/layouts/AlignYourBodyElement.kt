@@ -1,4 +1,4 @@
-package com.jadc.composecodelabs.ui.widgets
+package com.jadc.composecodelabs.ui.widgets.layouts
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

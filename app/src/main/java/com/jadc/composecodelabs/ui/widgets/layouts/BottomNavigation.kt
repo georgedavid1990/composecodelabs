@@ -1,4 +1,4 @@
-package com.jadc.composecodelabs.ui.widgets
+package com.jadc.composecodelabs.ui.widgets.layouts
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle

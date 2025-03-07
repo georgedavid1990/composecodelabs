@@ -19,17 +19,16 @@ import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.jadc.composecodelabs.R
 import com.jadc.composecodelabs.ui.theme.ComposeCodelabsTheme
-import com.jadc.composecodelabs.ui.widgets.AlignYourBodyRow
-import com.jadc.composecodelabs.ui.widgets.BottomNavigation
-import com.jadc.composecodelabs.ui.widgets.FavoriteCollectionsGrid
-import com.jadc.composecodelabs.ui.widgets.RailNavigation
-import com.jadc.composecodelabs.ui.widgets.SearchBar
+import com.jadc.composecodelabs.ui.widgets.layouts.AlignYourBodyRow
+import com.jadc.composecodelabs.ui.widgets.layouts.BottomNavigation
+import com.jadc.composecodelabs.ui.widgets.layouts.FavoriteCollectionsGrid
+import com.jadc.composecodelabs.ui.widgets.layouts.RailNavigation
+import com.jadc.composecodelabs.ui.widgets.layouts.SearchBar
 
 @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
 @Composable

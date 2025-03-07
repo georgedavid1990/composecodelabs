@@ -1,7 +1,5 @@
-package com.jadc.composecodelabs.ui.widgets
+package com.jadc.composecodelabs.ui.widgets.layouts
 
-import androidx.annotation.DrawableRes
-import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.lazy.LazyRow
