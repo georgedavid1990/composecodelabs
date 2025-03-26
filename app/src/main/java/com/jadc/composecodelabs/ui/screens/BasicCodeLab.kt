@@ -58,17 +58,17 @@ fun Greeting(
         ) {
             Column(
                 modifier =
-                Modifier
-                    .weight(1f)
-                    .padding(12.dp)
+                    Modifier
+                        .weight(1f)
+                        .padding(12.dp)
             ) {
                 Text(text = "Hello, ")
                 Text(
                     text = name,
                     style =
-                    MaterialTheme.typography.headlineMedium.copy(
-                        fontWeight = FontWeight.ExtraBold
-                    )
+                        MaterialTheme.typography.headlineMedium.copy(
+                            fontWeight = FontWeight.ExtraBold
+                        )
                 )
                 if (expanded) {
                     Text(
@@ -84,17 +84,17 @@ fun Greeting(
             ) {
                 Icon(
                     imageVector =
-                    if (expanded) {
-                        Icons.Filled.ExpandLess
-                    } else {
-                        Icons.Filled.ExpandMore
-                    },
+                        if (expanded) {
+                            Icons.Filled.ExpandLess
+                        } else {
+                            Icons.Filled.ExpandMore
+                        },
                     contentDescription =
-                    if (expanded) {
-                        stringResource(R.string.show_less)
-                    } else {
-                        stringResource(R.string.show_more)
-                    }
+                        if (expanded) {
+                            stringResource(R.string.show_less)
+                        } else {
+                            stringResource(R.string.show_more)
+                        }
                 )
             }
         }

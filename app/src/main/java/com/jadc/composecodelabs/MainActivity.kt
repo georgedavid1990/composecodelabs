@@ -26,6 +26,7 @@ import androidx.compose.ui.unit.dp
 import com.jadc.composecodelabs.ui.screens.BasicCodeLab
 import com.jadc.composecodelabs.ui.screens.BasicLayoutsCodeLab
 import com.jadc.composecodelabs.ui.screens.BasicStateCodeLab
+import com.jadc.composecodelabs.ui.screens.TestingCodeLab
 import com.jadc.composecodelabs.ui.theme.ComposeCodelabsTheme
 
 class MainActivity : ComponentActivity() {
@@ -110,6 +111,15 @@ fun Menu() {
                 }
             ) {
                 Text("States")
+            }
+
+            Button(
+                modifier = Modifier.padding(vertical = 24.dp),
+                onClick = {
+                    content = { TestingCodeLab() }
+                }
+            ) {
+                Text("Tests")
             }
         }
     }

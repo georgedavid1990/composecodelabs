@@ -4,10 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-03-04T22:44:49.729208Z">
+        <DropdownSelection timestamp="2025-03-07T13:19:18.347642Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/jorge.david/.android/avd/Pixel_7_API_33.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/jorge.david/.android/avd/Pixel_9_Pro_API_34_Android_14.avd" />
             </handle>
           </Target>
         </DropdownSelection>
@@ -19,6 +19,39 @@
       <SelectionState runConfigName="greeting_show_more_and_less()">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2025-03-02T13:19:11.300504Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/jorge.david/.android/avd/Pixel_9_Pro_API_34_Android_14.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="greeting_icon_show_more_show_less()">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-03-07T11:23:41.181577Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/jorge.david/.android/avd/Pixel_9_Pro_API_34_Android_14.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="x()">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-03-07T13:31:49.183376Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/jorge.david/.android/avd/Pixel_9_Pro_API_34_Android_14.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="alert_is_displayed()">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-03-07T13:40:35.261481Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=/Users/jorge.david/.android/avd/Pixel_9_Pro_API_34_Android_14.avd" />
